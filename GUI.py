@@ -73,7 +73,7 @@ class Window(QMainWindow):
         GPIO.output(9, GPIO.LOW)
         GPIO.output(11, GPIO.LOW)
         GPIO.cleanup()
-        self.close
+        self.close()
 
 #Method to construct a window object
 def CreateWindow():
