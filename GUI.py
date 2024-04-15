@@ -1,6 +1,5 @@
 #Imports, GPIO is for the raspberry Pi Pins, time is for the sleep method and the QT imports are for the GUI
 import RPi.GPIO as GPIO
-import time
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QApplication, QMainWindow
 import sys 
